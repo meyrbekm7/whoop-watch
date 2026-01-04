@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(images/image\ copy\ 3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ota {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    text-align: start;
+
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+button {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, darkblue 0%, black 100%);
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translate(5px, -5px);
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+.but,
+.but2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.more1,
+.more2,
+.more3 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.cas {
+    display: flex;
+    justify-content: space-between;
+}
