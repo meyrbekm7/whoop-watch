@@ -113,3 +113,56 @@ align-content: center;
 ul{
     text-align: start;
 }
+
+.what{
+    width: 50%;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.woop{
+    width: 100%;
+    font-size: 40px;
+    margin-left: 400px;
+}
+
+.aut{
+        font-size: 14px;
+    letter-spacing: 2px;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.ten{
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 570px;
+    transition: 0.3s;
+}
+.ten:hover{
+    transform: translate(10px,-10px);
+    box-shadow: 5px 1px 1px 5px rgb(13, 4, 80);
+}
+
+
+.top{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+
+.hi{
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+    margin-left: 450px;
+}
